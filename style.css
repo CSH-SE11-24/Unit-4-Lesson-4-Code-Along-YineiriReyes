@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color:pink;
+}
+#Red{
+  color: red;
+}
+#Orange{
+  color: orange;
+}
+.color{
+  color: red;
+}
+img:nth-of-type(1){
+  width: 80%;
+  margin: auto;
+}
+img:nth-of-type(n+2){
+  width: 30%;
+  margin: auto;
+}
+h2,p{
+  font-family: papyrus;
+}
+  p:first-word{
+    color:yellow;
+  }
+img[src="dog.gif"]{
+  width: 20px;
+  position: fixed;
+  bottom: 0;
+  left:0;
+}
